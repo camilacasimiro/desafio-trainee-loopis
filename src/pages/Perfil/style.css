@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-profile{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.image .connection{
+    padding-top: 45px;
+    background-color: #EDEDED;
+}
+
+
+.form-profile{
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    
+}
+
+.form-profile h1{
+    margin-bottom: 35px;
+}
+
+.form-profile input{
+    border-radius: 8px;
+    border: 2px solid #00ACEE;
+    padding: 8px 20px;
+    font-size: 16px;
+
+}
+
+.form-profile .field-1 .photo, .genere{
+    display: flex;
+}
+
+.form-profile .field-1 .photo{
+    margin-bottom: 10px;
+    border: 1px solid #00ACEE;
+    border-radius: 2px;
+}
+
+.form-profile .field-1 .man{
+    margin-left: 20px;
+}
+
+.form-profile .field-2{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.form-profile input[type=file]{
+    outline: none;
+    border: 0;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.form-profile label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #049cd8;
+    background-color: #00ACEE;
+   
+    font-size: 13px;
+    font-weight: bold;
+    color: #FDFDFD;
+    margin: 10px 70px;
+
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #049cd8;
+}
+
+/*
+.form-profile .field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+
+
+
+
+.form-profile .field .group-2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-profile .field .group-2 input{
+    
+}
+
+
+*/
