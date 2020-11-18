@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-cad{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image{
+    background-color: #EDEDED;
+    display: flex;
+}
+
+.image img{
+    padding-top: 45px;
+}
+
+.form-cad{
+    border-radius: 8px;
+    margin: 20px auto;
+    margin-top: 300px;
+}
+
+.form-cad h1{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 35px;
+}
+
+.form-cad .field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.form-cad .field label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.form-cad .field input{
+
+  border-radius: 8px;
+  border: 2px solid #00ACEE;
+  padding: 8px 20px;
+  font-size: 16px;
+
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #049cd8;
+    background-color: #00ACEE;
+   
+    font-size: 13px;
+    font-weight: bold;
+    color: #FDFDFD;
+    margin: 10px 70px;
+
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #049cd8;
+}

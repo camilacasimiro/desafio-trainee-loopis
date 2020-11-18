@@ -88,31 +88,3 @@ button {
 button:hover{
     background-color: #049cd8;
 }
-
-/*
-.form-profile .field{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 26px;
-    font-family: 'Roboto', sans-serif;
-    
-}
-
-
-
-
-
-
-
-.form-profile .field .group-2{
-    display: flex;
-    flex-direction: column;
-}
-
-
-.form-profile .field .group-2 input{
-    
-}
-
-
-*/

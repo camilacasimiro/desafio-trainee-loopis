@@ -1,0 +1,95 @@
+l,li,p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:#00ACEE;
+  }
+
+.header {
+    background:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+  
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu li {
+    margin-left: 10px;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 10px;
+  }
+
+.CardQuestions {
+    margin: auto;
+    width: 500px;
+    height:400px;
+
+    border: 1px solid black;
+    border-style: ridge ;
+    border-width: medium;
+    border-radius: 10px 20px;
+
+
+    
+    transform: translate(0, 50%);
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    
+    
+    
+}
+.esteticaforms {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    
+
+}
+
+.textoDentrodoCard{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 35px;
+    padding: 50px;
+}
+
+.button {
+    width: 200px;
+    height: 90px;
+    border-radius: 8px;
+    border: 1px solid #049cd8;
+    background-color: #00ACEE;
+    
+    box-sizing: border-box;
+    
+    
+    font-size: 13px;
+    font-weight: bold;
+    color: #FDFDFD;
+    text-align: center;
+    margin-left: 1000px ;
+    
+
+    transition: background-color 0.2s;
+    cursor: pointer;
+    
+}
