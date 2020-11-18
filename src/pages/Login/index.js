@@ -6,15 +6,15 @@ import Connection from '../../images/connection.png';
 
 function Login(){
     return (
-        <div id="page-cad">
+        <div id="page-login">
             <div className="image">
                 <img src={Connection} alt="Connection"></img>
             </div>
 
-            <form className="form-cad">
+            <form className="for-login">
                
                     <h1>Login</h1>
-                    <div className="field">
+                    <div className="field-login">
                         <label>Email:</label>
                         <input type="email"></input>
 
