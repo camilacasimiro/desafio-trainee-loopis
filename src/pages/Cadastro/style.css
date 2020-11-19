@@ -11,7 +11,7 @@
     height: 100vh;
 }
 
-.image{
+#page-cad .image{
     background-color: #EDEDED;
 }
 
@@ -21,16 +21,33 @@
 
 .form-cad{
     border-radius: 8px;
-    margin: 20px auto;
-    margin-top: 120px;
+    margin-left: 18%;
+    width: 100%;
+}
+
+.come-back-home{
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 40px 12px
+}
+
+.come-back-home img{
+    width: 15px;
+}
+
+.come-back-home p{
+    font-size: 14px;
+    padding-left: 5px;
 }
 
 .form-cad h1{
     font-family: 'Roboto', sans-serif;
     margin-bottom: 35px;
+    margin-top: 60px ;
 }
 
 .form-cad .field{
+    width: 270px;
     display: flex;
     flex-direction: column;
     margin-bottom: 26px;
@@ -62,7 +79,7 @@ button {
     font-size: 13px;
     font-weight: bold;
     color: #FDFDFD;
-    margin: 10px 70px;
+    margin: 10px 80px;
 
     transition: background-color 0.2s;
     cursor: pointer;
@@ -70,4 +87,36 @@ button {
 
 button:hover{
     background-color: #049cd8;
+}
+
+
+@media(max-width: 640px){
+    
+    #page-cad{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #page-cad .image{
+        margin-top: 50px;
+    }
+
+    .image img{
+        width: 0%;
+        margin-left: 0px;
+    }
+   
+    .form-cad {
+        margin-left: 12%;
+        width: 85%;
+    }
+    
+    .come-back-home {
+        padding: 40px 20px 12px;
+    }
+
+    .form-cad h1{
+        align-items: center;
+    }
+    
 }

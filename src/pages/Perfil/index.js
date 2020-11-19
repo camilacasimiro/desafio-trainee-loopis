@@ -2,9 +2,10 @@ import React from 'react';
 
 import "./style.css"
 import Connection from '../../images/connection.png';
-import Photo from '../../images/man.png'
+import Photo from '../../images/man.png';
+import Arrow from "../../images/seta.png";
 
-function Perfil(){
+function Perfil() {
     return (
         <div id="page-profile">
             <div className="image">
@@ -12,21 +13,25 @@ function Perfil(){
             </div>
 
             <form className="form-profile">
+                <div className="come-back-home">
+                    <img src={Arrow} alt="Voltar para home"></img>
+                    <p>Home</p>
+                </div>
 
                 <h1>Cadastro - 2</h1>
                 <div className="field">
                     <div className="field-1">
-                        
+
                         <img src={Photo} alt="Foto do Usuário" className="photo"></img>
                         <input type="file"></input>
-                       
+
                         <label className="genere">Gênero:</label>
                         <input type="checkbox"></input>
                         <label>Feminino</label>
 
                         <input type="checkbox" className="man"></input>
                         <label >Masculino</label>
-                        
+
                     </div>
 
                     <div className="field-2">

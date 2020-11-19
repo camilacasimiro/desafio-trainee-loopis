@@ -6,7 +6,7 @@ import Cadastro from '../src/pages/Cadastro';
 import Perfil from '../src/pages/Perfil';
 import Login from '../src/pages/Login';
 import Quizz from '../src/pages/Quizz';
-
+import Resultado from '../src/pages/Resultado';
 
 class Routes extends Component {
   render(){
@@ -16,8 +16,9 @@ class Routes extends Component {
      
         <Route path="/" exact component ={Cadastro}/>
         <Route path="/perfil" component ={Perfil}/>
-        <Route path="/Login" component ={Login}/>
-        <Route path="/Quizz" component ={Quizz}/>
+        <Route path="/login" component ={Login}/>
+        <Route path="/quizz" component ={Quizz}/>
+        <Route path="/resultado" component ={Resultado}/>
       
       </Switch>
     </BrowserRouter>

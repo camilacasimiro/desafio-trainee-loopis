@@ -9,10 +9,10 @@ import Formulario from "../Quizz/ComponentQuizz/Formulario"
 function Quizz() {
     return (
         <>
-            <header class="header">
+            <header className="header">
                 <a href="/">Logo</a>
                 <nav>
-                    <ul class="menu">
+                    <ul className="menu">
                         <li><a href="/">Home</a></li>
                         <li><a href="/">Quizz</a></li>
                         <li><a href="/">Sair</a></li>

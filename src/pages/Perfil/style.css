@@ -20,9 +20,8 @@
 
 .form-profile{
     border-radius: 8px;
-    font-family: 'Roboto', sans-serif;
-    margin: auto;
-    
+    margin-left: 18%;
+    width: 100%;
 }
 
 .form-profile h1{
@@ -79,7 +78,7 @@ button {
     font-size: 13px;
     font-weight: bold;
     color: #FDFDFD;
-    margin: 10px 70px;
+    margin: 10px 80px;
 
     transition: background-color 0.2s;
     cursor: pointer;
@@ -87,4 +86,32 @@ button {
 
 button:hover{
     background-color: #049cd8;
+}
+
+
+@media(max-width: 640px){
+    
+    #page-profile{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #page-profile .image{
+        margin-top: 0;
+    }
+
+    .image .connection{
+        width: 0%;
+        margin-left: 0px;
+    }
+   
+    .form-profile{
+        margin-left: 12%;
+        width: 85%;
+    }
+    
+    .come-back-home {
+        padding: 40px 20px 12px;
+    }
+
 }
