@@ -10,26 +10,31 @@ function Quizz() {
     return (
         <>
             <header className="header">
-                <a href="/">Logo</a>
+                <a to="">Logo</a>
                 <nav>
                     <ul className="menu">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">Quizz</a></li>
-                        <li><a href="/">Sair</a></li>
+                        <li><a to="">Home</a></li>
+                        <li><a to="">Quizz</a></li>
+                        <li><a to="">Sair</a></li>
                     </ul>
                 </nav>
             </header>
             <div>
-                <form >
+                <form>
                     <div className="EtruturaDosFormularios" >
-                       <Formulario></Formulario>
-                       <Formulario></Formulario>
-                       <Formulario></Formulario>
-                       <Formulario></Formulario>
-                       <Formulario></Formulario>
-                       <Formulario></Formulario>
+                        <Formulario></Formulario>
+                        <Formulario></Formulario>
+                        <Formulario></Formulario>
+                        <Formulario></Formulario>
+                        <Formulario></Formulario>
+                        <Formulario></Formulario>
                     </div>
                 </form>
+            </div>
+            <div id="locbutton" >
+            <Link to="/perfil">
+                <button type="submit" >Entrar</button>
+            </Link>
             </div>
         </>
     );

@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 l,li,p {
   margin: 0px;
   padding: 0px;
@@ -32,23 +35,20 @@ a {
   }
   
   .menu li a {
-    display: block;
     padding: 10px;
   }
 
 .CardQuestions {
-    margin: 10px;
-    width: 400px;
-    height: 400px;
+    margin: 20px;
+    width: 350px;
+    height: 350px;
 
     border: 1px solid black;
     border-style: ridge ;
     border-width: medium;
     border-radius: 10px 20px;
+    box-shadow: 5px 3px 5px 5px rgba(184,175,184,1);
 
-
-    
-    transform: translate(0, 50%);
     align-items: center;
     display:flex;
     flex-direction: column;
@@ -56,15 +56,16 @@ a {
     
 }
 .EtruturaDosFormularios{
-  margin: auto;
+  margin-left:10% ;
 
   display: flex;
   flex-direction: row ;
   flex-wrap: wrap;
+
   
   
 }
-.esteticaforms {
+.esteticaformulario {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
@@ -83,22 +84,15 @@ a {
 
 .button {
     width: 200px;
-    height: 90px;
+    height: 200px;
     border-radius: 8px;
-    border: 1px solid #049cd8;
-    background-color: #00ACEE;
-    
-    box-sizing: border-box;
-    
-    
-    font-size: 13px;
-    font-weight: bold;
-    color: #FDFDFD;
-    text-align: center;
-    margin-left: 1000px ;
-    
+    position:absolute;
+    bottom:0;
+    width:100%;
+    margin-left:30% ;
 
-    transition: background-color 0.2s;
-    cursor: pointer;
-    
 }
+#locbutton{
+  margin-left: 41.5% ;
+} 
+

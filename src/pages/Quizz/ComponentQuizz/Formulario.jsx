@@ -1,10 +1,9 @@
 
 function Formulario() {
     return (
-        <form >
             <div className='CardQuestions' >
                 <h1 className='textoDentrodoCard' >Espaço Para peguntas</h1>
-                <ul className='esteticaforms'>
+                <ul className='esteticaformulario'>
                     <li>
                         <label for="">Opção 1</label>
                         <input type="radio" name="" value="" />
@@ -23,7 +22,6 @@ function Formulario() {
                     </li>
                 </ul>
             </div>
-        </form>
     )
 }
 export default Formulario
