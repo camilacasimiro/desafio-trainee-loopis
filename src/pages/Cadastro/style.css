@@ -38,6 +38,7 @@
 .come-back-home p{
     font-size: 14px;
     padding-left: 5px;
+    color: black;
 }
 
 .form-cad h1{
@@ -66,8 +67,9 @@
   border: 2px solid #00ACEE;
   padding: 8px 20px;
   font-size: 16px;
-
+  outline: none;
 }
+
 
 button {
     width: 100px;
@@ -83,10 +85,21 @@ button {
 
     transition: background-color 0.2s;
     cursor: pointer;
+    outline: none;
 }
 
 button:hover{
     background-color: #049cd8;
+}
+
+#page-cad .link-login{
+    margin-top: 10px;
+    margin: 15px 70px;
+}
+
+#page-cad .link-login:hover{
+    color: black;
+    cursor: pointer;
 }
 
 

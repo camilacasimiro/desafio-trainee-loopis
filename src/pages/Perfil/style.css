@@ -25,10 +25,11 @@
 }
 
 .form-profile h1{
-    margin-bottom: 35px;
+    margin-bottom: 0px;
 }
 
-.form-profile input{
+.form-profile input, select{
+    background-color: white;
     border-radius: 8px;
     border: 2px solid #00ACEE;
     padding: 8px 20px;
@@ -41,9 +42,7 @@
 }
 
 .form-profile .field-1 .photo{
-    margin-bottom: 10px;
-    border: 1px solid #00ACEE;
-    border-radius: 2px;
+    flex-direction: column;
 }
 
 .form-profile .field-1 .man{
