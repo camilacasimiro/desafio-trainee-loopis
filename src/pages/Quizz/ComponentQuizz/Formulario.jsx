@@ -3,7 +3,7 @@ function Formularios() {
     return (
         <>
         <div className='CardQuestions' >
-            <h1 className='textoDentrodoCard' >Quais destas atitudes dos seus roommates mais te incomoda?</h1>
+            <h3 className='textoDentrodoCard' >Quais destas atitudes dos seus roommates mais te incomoda?</h3>
             <ul className='esteticaformulario'>
                 <div className="TextoaEsquerda">
                 <li>
@@ -26,7 +26,7 @@ function Formularios() {
             </ul>
         </div>
         <div className='CardQuestions' >
-        <h1 className='textoDentrodoCard' >O que você gosta de fazer em seu tempo livre?</h1>
+        <h3 className='textoDentrodoCard' >O que você gosta de fazer em seu tempo livre?</h3>
         <ul className='esteticaformulario'>
             <li>
                 <label htmlFor="musica">Jogar</label>
@@ -47,7 +47,7 @@ function Formularios() {
         </ul>
     </div>
     <div className='CardQuestions' >
-            <h1 className='textoDentrodoCard'>Em qual faculdade voccê estuda ou irá estudar ? </h1>
+            <h3 className='textoDentrodoCard'>Em qual faculdade voccê estuda ou irá estudar ? </h3>
             <ul className='esteticaformulario'>
                 <li>
                     <label htmlFor="FSM">FSM</label>
@@ -68,7 +68,7 @@ function Formularios() {
             </ul>
         </div>
         <div className='CardQuestions' >
-            <h1 className='textoDentrodoCard' >Com que frequência você irá chegar tarde em casa, durante a madrugada por exemplo?</h1>
+            <h3 className='textoDentrodoCard' >Com que frequência você irá chegar tarde em casa, durante a madrugada por exemplo?</h3>
             <ul className='esteticaformulario'>
                 <li>
                     <label htmlFor="Nunca">Nunca</label>
@@ -89,7 +89,7 @@ function Formularios() {
             </ul>
         </div>
         <div className='CardQuestions' >
-            <h1 className='textoDentrodoCard' >Quais desses você  tipos de música você mais costuma ouvir?</h1>
+            <h3 className='textoDentrodoCard' >Quais desses você  tipos de música você mais costuma ouvir?</h3>
             <ul className='esteticaformulario'>
                 <li>
                     <label htmlFor="Rock">Rock</label>
@@ -110,7 +110,7 @@ function Formularios() {
             </ul>
         </div>
         <div className='CardQuestions' >
-            <h1 className='textoDentrodoCard' >Qual sua opinião a respeito de animais na casa?</h1>
+            <h3 className='textoDentrodoCard' >Qual sua opinião a respeito de animais na casa?</h3>
             <ul className='esteticaformulario'>
                 <li>
                     <label htmlFor="Gosto">Gosto</label>
