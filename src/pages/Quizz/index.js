@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import "./style.css"
 
-import Formulario from "../Quizz/ComponentQuizz/Formulario"
+import Formularios from '../Quizz/ComponentQuizz/Formulario';
 
 function Quizz() {
     return (
@@ -22,12 +22,8 @@ function Quizz() {
             <div>
                 <form>
                     <div className="EtruturaDosFormularios" >
-                        <Formulario></Formulario>
-                        <Formulario></Formulario>
-                        <Formulario></Formulario>
-                        <Formulario></Formulario>
-                        <Formulario></Formulario>
-                        <Formulario></Formulario>
+                        <Formularios></Formularios>
+                        
                     </div>
                 </form>
             </div>
