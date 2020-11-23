@@ -18,7 +18,7 @@ function Login(){
 
         firebase.auth().signInWithEmailAndPassword(email,password).then(resultado => {
             console.log(resultado['user']['uid']);
-            window.location.href = "http://localhost:3001/resultado?uid=${resultado['user']['uid']}";
+            window.location.href = "http://localhost:3001/resultado?uid=${perfil['user']['uid']}";
             
         }).catch(erro => {
             alert(erro);

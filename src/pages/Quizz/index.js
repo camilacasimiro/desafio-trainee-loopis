@@ -10,12 +10,12 @@ function Quizz() {
     return (
         <>
             <header className="header">
-                <a to="">Logo</a>
+                <h3>Apê-Match</h3>
                 <nav>
                     <ul className="menu">
-                        <li><a to="">Home</a></li>
-                        <li><a to="">Quizz</a></li>
-                        <li><a to="">Sair</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/quizz">Quizz</Link></li>
+                        <li><Link to="/">Sair</Link></li>
                     </ul>
                 </nav>
             </header>
@@ -23,14 +23,14 @@ function Quizz() {
                 <form>
                     <div className="EtruturaDosFormularios" >
                         <Formularios></Formularios>
-                        
+
                     </div>
                 </form>
             </div>
             <div id="locbutton" >
-            <Link to="/perfil">
-                <button type="submit" >Entrar</button>
-            </Link>
+                <Link to="/resultado">
+                    <button type="submit" >Entrar</button>
+                </Link>
             </div>
         </>
     );

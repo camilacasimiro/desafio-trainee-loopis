@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 import "./style.css"
 import home from '../../images/home.png';
@@ -11,8 +12,8 @@ function HomePage() {
                 <h3>Apê-Match</h3>
                 <nav>
                     <ul className="menuHomepage">
-                        <li><a to="">Cadastre-se</a></li>
-                        <li><a to="">Sair</a></li>
+                        <li><Link to="/cadastro">Cadastre-se</Link></li>
+                        <li><Link to="/login">Login</Link></li>
                     </ul>
                 </nav>
             </header>
@@ -20,7 +21,7 @@ function HomePage() {
                 <img src={home} alt="home" ></img>
             </div>
             <div className="textoformato">
-                <h1>Um novo conceito para dividir quartos</h1>
+                <h1>Um novo conceito para dividir quartos!</h1>
             </div>
         </div>
         </div>

@@ -9,9 +9,10 @@ function Resultado() {
     return (
         <div id="page-result">
             <nav className="menu-result">
+                <h3>Apê-Match</h3>
                 <ul>
                     <li>
-                        <Link to="#">
+                        <Link to="/">
                             Home
                         </Link>
                     </li>
@@ -23,7 +24,7 @@ function Resultado() {
                     </li>
 
                     <li>
-                        <Link to="#">
+                        <Link to="/">
                             Sair
                         </Link>
                     </li>

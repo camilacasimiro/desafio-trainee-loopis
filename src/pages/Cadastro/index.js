@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import firebase from '../../services/firebase';
 import 'firebase/auth';
 
@@ -57,8 +57,6 @@ function Cadastro() {
                 <Link to="/login">
                     <p className="link-login">Ir para o Login</p>
                 </Link>
-
-
             </form>
         </div>
     );

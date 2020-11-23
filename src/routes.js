@@ -14,14 +14,13 @@ class Routes extends Component {
   return (
     <BrowserRouter>
       <Switch>
-     
-        <Route path="/" exact component ={Cadastro}/>
+
+        <Route path="/" exact component ={HomePage}/>
+        <Route path="/cadastro" exact component ={Cadastro}/>
         <Route path="/perfil" component ={Perfil}/>
         <Route path="/login" component ={Login}/>
         <Route path="/quizz" component ={Quizz}/>
         <Route path="/resultado" component ={Resultado}/>
-        <Route path="/HomePage" component ={HomePage}/>
-
       
       </Switch>
     </BrowserRouter>
