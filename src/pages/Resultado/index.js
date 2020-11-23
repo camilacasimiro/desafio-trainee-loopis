@@ -36,15 +36,6 @@ function Resultado() {
 
                     <div className="cards-result">
                         <div className="card">
-                        <img src={Elipse} alt=""></img>
-                            <div>
-                                <p>Nome</p>
-                                <p>Idade</p>
-                                <p>Cidade</p>
-                                <p>Faculdade</p>
-                            </div>
-                        </div>
-                        <div className="card">
                             <img src={Elipse} alt=""></img>
                             <div>
                                 <p>Nome</p>
@@ -61,7 +52,16 @@ function Resultado() {
                                 <p>Cidade</p>
                                 <p>Faculdade</p>
                             </div>
-                            
+                        </div>
+                        <div className="card">
+                            <img src={Elipse} alt=""></img>
+                            <div>
+                                <p>Nome</p>
+                                <p>Idade</p>
+                                <p>Cidade</p>
+                                <p>Faculdade</p>
+                            </div>
+
                         </div>
                         <div className="card">
                             <img src={Elipse} alt=""></img>

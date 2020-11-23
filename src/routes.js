@@ -7,6 +7,7 @@ import Perfil from '../src/pages/Perfil';
 import Login from '../src/pages/Login';
 import Quizz from '../src/pages/Quizz';
 import Resultado from '../src/pages/Resultado';
+import HomePage from '../src/pages/HomePage';
 
 class Routes extends Component {
   render(){
@@ -19,6 +20,8 @@ class Routes extends Component {
         <Route path="/login" component ={Login}/>
         <Route path="/quizz" component ={Quizz}/>
         <Route path="/resultado" component ={Resultado}/>
+        <Route path="/HomePage" component ={HomePage}/>
+
       
       </Switch>
     </BrowserRouter>
