@@ -30,6 +30,11 @@ function Perfil() {
                 foto: foto.name,
             }).then(() => {
                 alert("Dados cadastrados com sucesso");
+
+                setTimeout(() => {
+                    window.location.href = "/quizz"
+                },
+                    2000);
             })
         }).catch(erro => {
             alert(erro);
@@ -64,6 +69,7 @@ function Perfil() {
                             <option disable selected value> Selecione um tipo</option>
                             <option>Feminino</option>
                             <option>Masculino</option>
+                            <option>Prefiro não identificar</option>
                         </select>
 
                     </div>
@@ -84,7 +90,7 @@ function Perfil() {
                     </div>
                 </div>
 
-                <button onClick={Perfil} type="button">Login</button>
+                <button onClick={Perfil} type="button">Próximo</button>
 
             </form>
         </div>

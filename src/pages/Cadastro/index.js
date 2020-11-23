@@ -22,6 +22,12 @@ function Cadastro() {
 
         firebase.auth().createUserWithEmailAndPassword(email, password).then(resultado => {
             alert("Cadastrado com sucesso!");
+           
+            setTimeout(() => {
+                window.location.href = "/perfil"
+            },
+                2000);
+
         }).catch(erro => {
             alert(erro);
         });
@@ -54,9 +60,6 @@ function Cadastro() {
 
                 <button onClick={Register} type="button" >Confirmar</button>
 
-                <Link to="/login">
-                    <p className="link-login">Ir para o Login</p>
-                </Link>
             </form>
         </div>
     );

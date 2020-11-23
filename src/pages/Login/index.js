@@ -1,12 +1,12 @@
-import React,{useState} from 'react';
-import{Link} from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import firebase from '../../services/firebase';
 import 'firebase/auth';
 
 import "./style.css"
 import Connection from '../../images/connection.png';
 
-function Login(){
+function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -16,10 +16,14 @@ function Login(){
             return;
         }
 
-        firebase.auth().signInWithEmailAndPassword(email,password).then(resultado => {
-            console.log(resultado['user']['uid']);
-            window.location.href = "http://localhost:3001/resultado?uid=${perfil['user']['uid']}";
-            
+        firebase.auth().signInWithEmailAndPassword(email, password).then(resultado => {
+            alert("Logado");
+
+            setTimeout(() => {
+                window.location.href = "/quizz"
+            },
+                2000);
+
         }).catch(erro => {
             alert(erro);
         });
@@ -32,18 +36,18 @@ function Login(){
             </div>
 
             <form className="for-login">
-               
-                    <h1>Login</h1>
-                    <div className="field-login">
-                        <label>Email:</label>
-                        <input id="email" onChange={(e) => setEmail(e.target.value)} type="email"></input>
 
-                        <label>Senha:</label>
-                        <input onChange={(e) => setPassword(e.target.value)} type="password"></input>
-                    </div> 
-                     <Link>
-                    <button  onClick={Autentic}type="button" >Entrar</button>  
-                    </Link> 
+                <h1>Login</h1>
+                <div className="field-login">
+                    <label>Email:</label>
+                    <input id="email" onChange={(e) => setEmail(e.target.value)} type="email"></input>
+
+                    <label>Senha:</label>
+                    <input onChange={(e) => setPassword(e.target.value)} type="password"></input>
+                </div>
+                <Link>
+                    <button onClick={Autentic} type="button" >Entrar</button>
+                </Link>
             </form>
         </div>
     );

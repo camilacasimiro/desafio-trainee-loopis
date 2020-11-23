@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 
 import "./style.css"
 import Result from '../../images/result.png';
-import Elipse from '../../images/elipse.png';
+import Boy from '../../images/boy.jpg';
+import Girl from '../../images/girl.jpg';
+import Girl2 from '../../images/girl-2.jpg';
 
 function Resultado() {
     return (
@@ -37,41 +39,35 @@ function Resultado() {
 
                     <div className="cards-result">
                         <div className="card">
-                            <img src={Elipse} alt=""></img>
+                            <img src={Girl} alt=""></img>
                             <div>
-                                <p>Nome</p>
-                                <p>Idade</p>
-                                <p>Cidade</p>
-                                <p>Faculdade</p>
+                                <p>Ana Leítca</p>
+                                <p>20</p>
+                                <p>Patos-PB</p>
+                                <p>FSM</p>
+                                <p>Tel.: 987254766</p>
                             </div>
                         </div>
                         <div className="card">
-                            <img src={Elipse} alt=""></img>
+                            <img src={Boy} alt=""></img>
                             <div>
-                                <p>Nome</p>
-                                <p>Idade</p>
-                                <p>Cidade</p>
-                                <p>Faculdade</p>
+                                <p>Carlos Augusto</p>
+                                <p>22</p>
+                                <p>Pombal-PB</p>
+                                <p>IFPB</p>
+                                <p>Tel.: 928862446</p>
                             </div>
                         </div>
                         <div className="card">
-                            <img src={Elipse} alt=""></img>
+                            <img src={Girl2} alt=""></img>
                             <div>
-                                <p>Nome</p>
-                                <p>Idade</p>
-                                <p>Cidade</p>
-                                <p>Faculdade</p>
+                                <p>Maria Alice </p>
+                                <p>21</p>
+                                <p>Malta-PB</p>
+                                <p>FAFIC</p>
+                                <p>Tel.: 981236925</p>
                             </div>
 
-                        </div>
-                        <div className="card">
-                            <img src={Elipse} alt=""></img>
-                            <div>
-                                <p>Nome</p>
-                                <p>Idade</p>
-                                <p>Cidade</p>
-                                <p>Faculdade</p>
-                            </div>
                         </div>
                     </div>
                 </div>

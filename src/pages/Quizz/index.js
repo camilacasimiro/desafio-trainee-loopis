@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Menu from '../../components/Menu'
 
 
 import "./style.css"
@@ -9,16 +10,7 @@ import Formularios from '../Quizz/ComponentQuizz/Formulario';
 function Quizz() {
     return (
         <>
-            <header className="header">
-                <h3>Apê-Match</h3>
-                <nav>
-                    <ul className="menu">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/quizz">Quizz</Link></li>
-                        <li><Link to="/">Sair</Link></li>
-                    </ul>
-                </nav>
-            </header>
+            <Menu />
             <div>
                 <form>
                     <div className="EtruturaDosFormularios" >
